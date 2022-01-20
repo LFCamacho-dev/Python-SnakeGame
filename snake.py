@@ -14,10 +14,6 @@ class Snake:
         self.segments = []
         self.create_snake()
         self.head = self.segments[0]
-        # self.up()
-        # self.down()
-        # self.right()
-        # self.left()
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
